@@ -720,5 +720,22 @@ margin-bottom: 24px;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
+}
 
+.checkbox-input:checked + .accepted-privacy {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
+.accept-icon {
+  left: 0;
+}
+
+.privacy-policy {
+line-height: 133%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
 }
